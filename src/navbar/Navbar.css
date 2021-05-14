@@ -1,0 +1,43 @@
+#navBar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: "Baloo Bhai 2", cursive;
+  top: 0px;
+  left: 0px;
+}
+
+#logo {
+  margin: 10px 34px;
+}
+
+#logo img {
+  height: 59px;
+  margin: 3px 6px;
+}
+
+#navBar ul {
+  display: flex;
+}
+
+#navBar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 1170px) {
+  #navBar {
+    flex-direction: column;
+  }
+
+  #navBar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+  }
+}

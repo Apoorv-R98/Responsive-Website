@@ -1,0 +1,21 @@
+.services-container {
+  margin-top: 50px;
+}
+
+#services {
+  margin: 34px;
+  display: flex;
+}
+
+@media screen and (max-width: 1170px) {
+  #services {
+    flex-direction: column;
+    margin: 16px;
+  }
+
+  #services .box {
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+  }
+}
