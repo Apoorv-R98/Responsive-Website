@@ -1,0 +1,27 @@
+.box p {
+  font-size: 1.1rem;
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: 100;
+}
+
+.box {
+  border: 2px solid brown;
+  padding: 34px;
+  margin: 4px 10px;
+  border-radius: 15px;
+  background-color: #f2f2ff;
+}
+
+.box img {
+  height: 160px;
+  margin: auto;
+  display: block;
+}
+
+@media screen and (max-width: 1170px) {
+  #services .box {
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+  }
+}

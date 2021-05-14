@@ -1,0 +1,36 @@
+.h-primary {
+  font-size: 2.8rem;
+  padding: 12px;
+  font-family: "Bree Serif", serif;
+}
+
+.h-secondary {
+  font-size: 2.3rem;
+  padding: 12px;
+}
+
+.btn {
+  padding: 6px 20px;
+  background-color: brown;
+  color: white;
+  border: 2px solid white;
+  border-radius: 7px;
+  margin: 17px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.center {
+  text-align: center;
+}
+
+@media screen and (max-width: 1170px) {
+  .h-primary {
+    font-size: 26px;
+  }
+
+  .btn {
+    font-size: 13px;
+    padding: 4px 8px;
+  }
+}

@@ -1,0 +1,19 @@
+.client-item {
+  padding: 34px;
+}
+
+#clients img {
+  height: 144px;
+}
+
+@media screen and (max-width: 1170px) {
+  #clients img {
+    width: 66px;
+    padding: 6px;
+    height: auto;
+  }
+
+  .client-item {
+    padding: 22px;
+  }
+}
